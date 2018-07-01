@@ -1,0 +1,25 @@
+[Workspace loaded from ~/.RData]
+
+> #Assign numeric (double) to 'v' dataset
+> v<-c(2,5.5,6)
+> #Checking the dataset format
+> mode(v)
+[1] "numeric"
+> class(v)
+[1] "numeric"
+> is.numeric(v)
+[1] TRUE
+> is.double(v)
+[1] TRUE
+> #Assign numeric (integer) to 't' dataset
+> t<-c(8,3,4)
+> #Checking the dataset format
+> mode(v)
+[1] "numeric"
+> class(v)
+[1] "numeric"
+> is.numeric(v)
+[1] TRUE
+> #Printing remainder of the first vector 'v' with the second dataset 't'
+> print(v%/%t)
+[1] 0 1 1
